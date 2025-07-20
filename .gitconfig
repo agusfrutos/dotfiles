@@ -1,0 +1,9 @@
+[user]
+    email = agustinfrutos16@gmail.com
+    name = agusfrutos
+[alias]
+    s = status
+    cm = commit -m
+    b = branch
+    tree = log --graph --pretty=format:'%C(auto)%h%d %s %C(black)%C(bold)%cr by %an' --all
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
